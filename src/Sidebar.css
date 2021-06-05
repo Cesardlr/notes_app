@@ -1,0 +1,64 @@
+.sidebar {
+    width: 25%;
+    border-right: 2px solid rgb(130, 130, 130);
+    min-height: 100vh;
+    background: rgb(247, 247, 247);
+}
+
+.sidebar__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebar__header>button {
+    background: transparent;
+    border: none;
+    color: rgb(47, 103, 233);
+    cursor: pointer;
+    max-height: 20px;
+    font-size: 15px;
+}
+
+
+/* Notes css */
+.sidebar__note {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+.sidebar__note:hover {
+    background: #ddd;
+}
+
+.sidebar__note.active {
+    background: #08c;
+    color: white;
+}
+
+.sidebar__title>h4 {
+    margin-bottom: 5px;
+}
+
+.sidebar__title>h6 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.sidebar__noteButton {
+    background: transparent;
+    border: none;
+    height: 20px;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.sidebar__text{
+    max-width: 20ch;
+}
